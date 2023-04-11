@@ -39,7 +39,7 @@ public class DESAFIO {
                     break;
                 case 4:
                     System.out.println("Opção selecionada *Deletar todas as bandas*");
-                    
+                    DesafioBandas.deleteAll();
                     break;
                 case 5:
                     System.out.println("Opção selecionada *Alterar a sequencia das bandas*");
@@ -47,7 +47,6 @@ public class DESAFIO {
                     break;
                 case 6:
                     System.out.println("Você saiu do Sistema!");
-                    DesafioBandas.deleteAll();
                     System.exit(0);
             }
         }
