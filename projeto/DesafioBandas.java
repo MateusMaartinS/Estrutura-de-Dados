@@ -25,7 +25,7 @@ public class DesafioBandas {
     public void visualizar() {
         System.out.println("As Bandas Adicionadas foram: ");
         for (String addBanda : lista) {
-            System.out.println(" >> " + lista +"\n\n");
+            System.out.println(" >> " + lista +"\n");
         }
     }
     
